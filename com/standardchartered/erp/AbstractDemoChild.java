@@ -2,11 +2,17 @@ package com.standardchartered.erp;
 
 public class AbstractDemoChild extends AbstractDemo {
 
-	private String newMessage;
 	
 	public AbstractDemoChild(String message) {
-		this.message = message;
+		super.message = message;
 	}
 
+	@Override
+	public void sayHi() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 	
 }
